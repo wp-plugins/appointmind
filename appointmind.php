@@ -35,6 +35,7 @@ class Appointmind
      */
     public function __construct()
     {
+	    add_shortcode('appointmind_calendar', array(&$this, 'displayArticleCalendarShortCode'));
 	    add_filter('the_content', array(&$this, 'displayArticleCalendar'));
 	    add_action('widgets_init', array(&$this, 'registerSidebarWidget'));
 	    add_action('init', array(&$this, 'defineLocale'));
@@ -85,6 +86,31 @@ class Appointmind
         $content = str_replace('{' . $this->settings->placeHolder . '}', $calendarContent, $content);
 
         return $content;
+    }
+
+
+    /**
+     * Display calendar in article
+     */
+    public function displayArticleCalendarShortCode()
+    {
+        $settings = $this->settings->readSettings();
+
+        $this->view = (object) array_merge((array) $this->view, $settings);
+
+        if (empty($this->view->calendarUrl) or $this->view->calendarUrl == 'http://') {
+            return '';
+        }
+
+        $calendarContent = '';
+        $view = $this->view;
+
+    	ob_start();
+        include dirname(__FILE__) . '/templates/article_calendar.php';
+        $calendarContent = ob_get_contents();
+        ob_end_clean();
+
+        return $calendarContent;
     }
 
     /**
