@@ -3,7 +3,7 @@
 	<a class="nav-tab <?php echo $tab == 'general' ? 'nav-tab-active' : '' ?>" href="?page=<?php echo $view->settingOptionName ?>-settings&tab=general"><?php echo $this->__('General Settings') ?></a>
 </h2>
 
-<p><?php echo sprintf($this->__('In order to display the calendar, put the placeholder <strong>%s</strong> at the position in your article where you want the calendar to appear.'), '{' . $view->placeHolder . '}')?></p>
+<p><?php echo sprintf($this->__('In order to display the calendar, put the placeholder <strong>%s</strong> at the position in your article where you want the calendar to appear.'), '[' . $view->placeHolder . ']')?></p>
 
 <form method="post" action="./options-general.php?page=<?php echo $view->settingOptionName ?>-settings&tab=general" id="<?php echo $view->settingOptionName ?>_settings" style="margin-top:2em;margin-left:1em;">
 
