@@ -22,7 +22,7 @@ Include your Appointmind or Schedule Organizer online appointment scheduling cal
 
 = 2.0.0 =
 
-* Added support for short code. The placeholder for the calendar is now [appointmind_calendar].
+* Added support for short code. The placeholder for the calendar is now [appointmind_calendar]. The old placeholder will continue to work, though.
 
 = 1.0.0 =
 
