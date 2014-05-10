@@ -8,7 +8,7 @@ Include your Appointmind or Schedule Organizer online appointment scheduling cal
 
 == Description ==
 
-Include your Appointmind online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href="http://www.appointmind.com/?tracking=wordpress" target="_blank">Appointmind (English)</a> or at <a href="http://www.appointmind.de/?tracking=wordpress" target="_blank">Appointmind (Deutsch)</a>.
+Include your Appointmind online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href="http://www.appointmind.com/?tracking=wordpress" target="_blank">Appointmind.com (English)</a> or at <a href="http://www.appointmind.de/?tracking=wordpress" target="_blank">Appointmind.de (Deutsch)</a>.
 
 == Installation ==
 
@@ -19,6 +19,10 @@ Include your Appointmind online appointment scheduling calender in any article o
 5. Add the placeholder [appointmind_calendar] to any post.
 
 == Changelog ==
+
+= 3.0.2 =
+
+Changed description.
 
 = 3.0.1 =
 
