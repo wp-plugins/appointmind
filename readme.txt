@@ -1,5 +1,5 @@
 === Appointmind ===
-Contributors: GentleSource
+Contributors: Appointmind
 Tags: appointmind, schedule organizer, appointment, appointments, appointment scheduling, schedule, scheduling, reservation, booking, appointment reservation, appointment booking, terminvergabe, terminbuchung, terminreservierung, termin, termine, calendar, kalender
 Requires at least: 2.5
 Tested up to: 3.9.1
@@ -12,13 +12,17 @@ Include your Appointmind online appointment scheduling calender in any article o
 
 == Installation ==
 
-1. Upload the `appointmind` folder to `/wp-content/plugins/`.
+1. Upload the `appointmind` folder to `/wp-content/plugins/` or search for "Appointmind".
 2. Activate the plugin on the 'Plugins' page in WordPress.
 3. Add your calendar URL in 'Settings' -> 'Appointmind Calendar'.
 4. Go to Appearance -> Widgets and drag the Appointmind widget to the sidebar.
 5. Add the placeholder [appointmind_calendar] to any post.
 
 == Changelog ==
+
+= 3.0.4 =
+
+Changed description.
 
 = 3.0.3 =
 
