@@ -20,7 +20,11 @@ Include your Appointmind online appointment scheduling calender in any article o
 
 == Changelog ==
 
-= 3.0.0 "
+= 3.0.1 =
+
+Changed description.
+
+= 3.0.0 =
 
 * Automatically adjusting iframe.
 
