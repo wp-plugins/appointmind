@@ -3,7 +3,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-10 23:33+0100\n"
+"PO-Revision-Date: 2014-05-10 23:46+0100\n"
 "Last-Translator: GentleSource <ralf@gentlesource.com>\n"
 "Report-Msgid-Bugs-To: \n"
 "Language-Team: GentleSource <ralf@gentlesource.com>\n"
@@ -62,4 +62,10 @@ msgstr "Platzieren Sie einen Link zu Ihrem Kalender in der Seitenleiste. Ein Kli
 
 msgid "Include your Appointmind or Schedule Organizer online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href=\"http://www.appointmind.com/?tracking=wordpress\" target=\"_blank\">Appointmind.com</a>."
 msgstr "Binden Sie Ihre Appointmind oder Schedule Organizer Terminvereinbarung in einen beliebigen Artikel oder in die Seitenleiste ein. Das Plugin setzt voraus, dass Sie entweder das monatliche Abonnement oder die Software zum Herunterladen erworben haben. Dieses Plugin enthält nicht die Terminvereinbarungs-Software. Sie erhalten das Abonnement oder die Software auf <a href=\"http://www.appointmind.de/?tracking=wordpress\" target=\"_blank\">Appointmind.de</a>"
+
+msgid "http://www.appointmind.com/wordpress-plugin/?tracking=wordpress"
+msgstr "http://www.appointmind.de/wordpress-plugin/?tracking=wordpress"
+
+msgid "http://www.appointmind.com/?tracking=wordpress"
+msgstr "http://www.appointmind.de/?tracking=wordpress"
 

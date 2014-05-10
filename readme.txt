@@ -20,6 +20,10 @@ Include your Appointmind online appointment scheduling calender in any article o
 
 == Changelog ==
 
+= 3.0.5 =
+
+Changed locale file.
+
 = 3.0.4 =
 
 Changed description.
