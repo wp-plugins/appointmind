@@ -4,11 +4,11 @@
 */
 /*
 Plugin Name: Appointmind
-Plugin URI: http://www.gentlesource.com/
+Plugin URI: http://www.appointmind.com/wordpress-plugin/
 Description: Include your Appointmind or Schedule Organizer online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href=\"http://www.appointmind.com/?tracking=wordpress\" target=\"_blank\">Appointmind.com</a>.
-Version: 3.0.2
-Author: GentleSource
-Author URI: http://www.gentlesource.com/
+Version: 3.0.3
+Author: Appointmind
+Author URI: http://www.appointmind.com/
 Text Domain: appointmind
 Domain Path: /languages
 */
