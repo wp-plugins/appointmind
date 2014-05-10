@@ -3,7 +3,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-06-21 23:16+0100\n"
+"PO-Revision-Date: 2014-05-10 22:10+0100\n"
 "Last-Translator: GentleSource <ralf@gentlesource.com>\n"
 "Report-Msgid-Bugs-To: \n"
 "Language-Team: GentleSource <ralf@gentlesource.com>\n"
@@ -21,7 +21,7 @@ msgstr "Zeigt einen link zu Ihrem Kalender in der Seitenleiste an. Ein Klick auf
 msgid "Calendar URL"
 msgstr "Kalender-URL"
 
-msgid "Enter here the location of your calendar installation, either on your server or on Appointmind."
+msgid "Enter here the location (URL, link) of your calendar installation, either on your server or on Appointmind."
 msgstr "Tragen Sie hier die Adresse (URL, Link) Ihrer Kalenderinstallation auf Ihrem Server oder bei Appointmind ein."
 
 msgid "In order to display the calendar, put the placeholder <strong>%s</strong> at the position in your article where you want the calendar to appear."
@@ -60,6 +60,6 @@ msgstr "Vereinbaren Sie einen Termin"
 msgid "Display a link to your calendar in the sidebar. A click on that link opens the calendar in a popup window."
 msgstr "Platzieren Sie einen Link zu Ihrem Kalender in der Seitenleiste. Ein Klick auf den Link öffnet den Kalender in einem Popup-Fenster."
 
-msgid "Include your Appointmind or Schedule Organizer online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href=\"http://www.schedule-organizer.de/en/?tracking=wordpress\" target=\"_blank\">Schedule Organizer</a>."
-msgstr "Binden Sie Ihre Appointmind oder Schedule Organizer Terminvereinbarung in einen beliebigen Artikel oder in die Seitenleiste ein. Das Plugin setzt voraus, dass Sie entweder das monatliche Abonnement oder die Software zum Herunterladen erworben haben. Dieses Plugin enthält nicht die Terminvereinbarungs-Software. Sie erhalten das Abonnement oder die Software auf <a href=\"http://www.appointmind.de/?tracking=wordpress\" target=\"_blank\">Appointmind</a>"
+msgid "Include your Appointmind or Schedule Organizer online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href=\"http://www.appointmind.com/?tracking=wordpress\" target=\"_blank\">Appointmind.com</a>."
+msgstr "Binden Sie Ihre Appointmind oder Schedule Organizer Terminvereinbarung in einen beliebigen Artikel oder in die Seitenleiste ein. Das Plugin setzt voraus, dass Sie entweder das monatliche Abonnement oder die Software zum Herunterladen erworben haben. Dieses Plugin enthält nicht die Terminvereinbarungs-Software. Sie erhalten das Abonnement oder die Software auf <a href=\"http://www.appointmind.de/?tracking=wordpress\" target=\"_blank\">Appointmind.de</a>"
 

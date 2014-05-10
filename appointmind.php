@@ -6,7 +6,7 @@
 Plugin Name: Appointmind
 Plugin URI: http://www.gentlesource.com/
 Description: Include your Appointmind or Schedule Organizer online appointment scheduling calender in any article or in the sidebar. This plugin requires that you have purchased either a monthly subscription or the downloadable version of the software. This plugin does not include the appointmind scheduling software. You can get the subscription or the software at <a href="http://www.schedule-organizer.de/en/?tracking=wordpress" target="_blank">Schedule Organizer</a>.
-Version: 2.0
+Version: 3.0
 Author: GentleSource
 Author URI: http://www.gentlesource.com/
 Text Domain: appointmind
@@ -39,6 +39,8 @@ class Appointmind
 	    add_filter('the_content', array(&$this, 'displayArticleCalendar'));
 	    add_action('widgets_init', array(&$this, 'registerSidebarWidget'));
 	    add_action('init', array(&$this, 'defineLocale'));
+        add_action('init', array(&$this, 'init'));
+        add_action('wp_footer', array(&$this, 'footerCode'), 999);
 
 	    $this->settings = new AppointmindSettings;
         add_action('admin_menu', array(&$this->settings, 'settingsMenu'));
@@ -57,6 +59,21 @@ class Appointmind
 	    load_plugin_textdomain($this->settings->settingOptionName, dirname(__FILE__) . '/languages', basename(dirname(__FILE__)) . '/languages');
     }
 
+    /**
+     * Init
+     */
+    public function init()
+    {
+		wp_enqueue_script('jquery');
+        wp_enqueue_script('ba-postmessage', WP_PLUGIN_URL . '/appointmind/js/jquery.ba-postmessage.min.js');
+    }
+
+    /**
+     * Footer
+     */
+    public function footerCode()
+    {
+    }
 
     /**
      * Display calendar in article
@@ -73,6 +90,16 @@ class Appointmind
 
         if (empty($this->view->calendarUrl) or $this->view->calendarUrl == 'http://') {
             return str_replace('{' . $this->settings->placeHolder . '}', '', $content);
+        }
+
+        $urlParts = parse_url($this->view->calendarUrl);
+
+        $appointmindUrlDomain = $urlParts['scheme'] . '://' . $urlParts['host'];
+        $appointmindUrlPath = $urlParts['path'];
+        $appointmindUrlParameters = '';
+
+        if (!empty($urlParts['query'])) {
+            $appointmindUrlParameters = '?' . $urlParts['query'];
         }
 
         $calendarContent = '';
@@ -100,6 +127,16 @@ class Appointmind
 
         if (empty($this->view->calendarUrl) or $this->view->calendarUrl == 'http://') {
             return '';
+        }
+
+        $urlParts = parse_url($this->view->calendarUrl);
+
+        $appointmindUrlDomain = $urlParts['scheme'] . '://' . $urlParts['host'];
+        $appointmindUrlPath = $urlParts['path'];
+        $appointmindUrlParameters = '';
+
+        if (!empty($urlParts['query'])) {
+            $appointmindUrlParameters = '?' . $urlParts['query'];
         }
 
         $calendarContent = '';

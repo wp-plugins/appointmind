@@ -2,7 +2,7 @@
 Contributors: GentleSource
 Tags: appointmind, schedule organizer, appointment, appointments, appointment scheduling, schedule, scheduling, reservation, booking, appointment reservation, appointment booking, terminvergabe, terminbuchung, terminreservierung, termin, termine, calendar, kalender
 Requires at least: 2.5
-Tested up to: 3.8
+Tested up to: 3.9.1
 
 Include your Appointmind or Schedule Organizer online appointment scheduling calender in any article or in the sidebar.
 
@@ -19,6 +19,10 @@ Include your Appointmind online appointment scheduling calender in any article o
 5. Add the placeholder [appointmind_calendar] to any post.
 
 == Changelog ==
+
+= 3.0.0 "
+
+* Automatically adjusting iframe.
 
 = 2.0.0 =
 

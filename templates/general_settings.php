@@ -13,7 +13,7 @@
   <tr valign="top">
     <th scope="row">
         <label for="calendarUrl" style="font-weight:bold;"><?php echo $this->__('Calendar URL') ?></label>
-        <p><?php echo $this->__('Enter here the location of your calendar installation, either on your server or on Appointmind.') ?></p>
+        <p><?php echo $this->__('Enter here the location (URL, link) of your calendar installation, either on your server or on Appointmind.') ?></p>
     </th>
   </tr>
   <tr>
