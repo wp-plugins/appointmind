@@ -20,6 +20,10 @@ Include your Appointmind online appointment scheduling calender in any article o
 
 == Changelog ==
 
+= 3.3.0 =
+
+Updated message library.
+
 = 3.2.0 =
 
 Updated message library.
